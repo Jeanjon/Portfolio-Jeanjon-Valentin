@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Portfolio Jeanjon Valentin</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <section class="banner backgroundUni" id="sec">
+      <header class="noir" >
+        <a class="logo">Portfolio</a>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+
+      <div id="pagegallerie">
+       <div id="carre1" class="carre"></div>
+       <div id="carre2" class="carre"></div>
+       <div class="gallerie">
+          <li class="pictures">
+            <div class="colonne"> <img src="../image/belote.PNG" class="" alt="Smiley face"> </div>
+            <div class="colonne"><h2>Belote: Re-Belote</h2><p>Il s'agit d'un projet effectué en Java avec l'IDE Android Studio. Avec 2 autres collaborateurs, nous avons fait une application pour jouer à la belote sur mobile. Cela m'a permis d'apprendre à faire des applications mobiles et de renforcer ma connaissance sur Java.</p></div>
+          </li>
+          <li class="pictures" >
+            <div class="colonne"> <img src="../image/legrand.jpg" class="" alt="Smiley face"> </div>
+            <div class="colonne"><h2>Application pour Legrand</h2><p>Nous devions faire une application web pour informatiser complètement le service de gestion de production manuel. Il s'agit de mon premier projet avec des clients. J'ai fortement appris durant ce projet, notamment à mettre en forme les exigences du client, organiser un projet ou encore s'organiser au sein d'un groupe.</p></div>
+          </li>
+        </div>
+      </div>
+
+
+    </section>
+    <div id="navigation">
+      <ul>
+        <li> <a href="./index.html">Accueil</a> </li>
+        <li> <a href="./cv.html">CV</a> </li>
+        <li> <a href="./portfolio.html">Portfolio</a> </li>
+        <li> <a href="./contact.html">Contact</a> </li>
+        <li> <a class="pointer" onclick="toggle()">Retour</a> </li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<script src="../js/menu.js"></script>
+<script src="../jquery/dist/jquery.js"></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+<script src="../jquery.scrollto/jquery.scrollTo.js"></script>
+<script src="../js/gallerie.js"></script>
