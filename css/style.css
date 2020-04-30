@@ -339,6 +339,7 @@ a
 	left:5%;
 	right:5%;
   overflow:hidden;
+  z-index: -1;
 }
 
 
@@ -360,8 +361,9 @@ a
 
 .gallerie li img
 {
-	width: auto;
-	height: 200px;
+	width: 400px;
+	height: auto;
+
 }
 
 .colonne
