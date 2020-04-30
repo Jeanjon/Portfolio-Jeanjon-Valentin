@@ -339,7 +339,7 @@ a
 	left:5%;
 	right:5%;
   overflow:hidden;
-  z-index: -1;
+
 }
 
 
@@ -363,7 +363,7 @@ a
 {
 	width: 400px;
 	height: auto;
-
+  z-index: 10;
 }
 
 .colonne
